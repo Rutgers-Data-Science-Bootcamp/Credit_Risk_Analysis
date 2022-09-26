@@ -40,5 +40,5 @@ All the models used to perform the credit risk analysis show weak precision in d
 The Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits. While Adaboost algorithm shows a recall(sensitivity) of 92% so it detects almost all high risk credit, and BalancedRandomForest algorithm did not show any significant improvement (with significance 70%) from linear regression with oversampliong or downsampler or both. On another hand, all models with a low precision to detetct high risk loan, therefore a lot of low risk credits will still be falsely detected as high risk which would penalize the bank's credit strategy. For those reasons, these models are not sufficient to predict credit risk for commericial application.
 
 # Resources
--Data: LoanStats_2019Q1.csv from LendingClub
--Software and tools: jupyter notebook; pandas, numpy, scikit-learn, imbalanced-learn libraries 
+- Data: LoanStats_2019Q1.csv from LendingClub
+- Software and tools: jupyter notebook; pandas, numpy, scikit-learn, imbalanced-learn libraries 
