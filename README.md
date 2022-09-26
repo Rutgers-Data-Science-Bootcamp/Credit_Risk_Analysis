@@ -19,6 +19,21 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![Screen Shot 2022-09-25 at 9 16 18 PM](https://user-images.githubusercontent.com/65901034/192175740-652e6456-5d95-4024-9616-35a27a4522bd.png)
 
+## Combination (Over and Under) Sampling
+- SMOTEENN algorithm
+
+![Screen Shot 2022-09-25 at 9 31 43 PM](https://user-images.githubusercontent.com/65901034/192176909-727d5d59-c60c-49bc-9e3b-7c3f2c5ec9ef.png)
+
+## Ensemble Learners Algorithms:
+- Balanced Random Forest Classifier
+
+![Screen Shot 2022-09-25 at 9 33 48 PM](https://user-images.githubusercontent.com/65901034/192177051-37cacd90-1922-4e85-a766-415870b3ebb8.png)
+
+- Easy Ensemble AdaBoost Classifier
+
+![Screen Shot 2022-09-25 at 9 34 07 PM](https://user-images.githubusercontent.com/65901034/192177074-9940d928-15ae-43e0-b581-135085b33bb5.png)
+
+
 
 # Summary 
 All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
