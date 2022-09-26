@@ -5,11 +5,19 @@ Data preparation, Statistical reasoning, Machine Learning
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we need to employ different techniques to train and evaluate models with unbalanced classes, such as oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, use a combinatorial approach of over and undersampling using the SMOTEENN algorithm. Next, compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once the analysis are performed, evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
 # Results
-## Oversamplealgorithms:
+## Oversample algorithms:
 - Naive RandomOverSampler Result
+
 ![Screen Shot 2022-09-25 at 9 13 12 PM](https://user-images.githubusercontent.com/65901034/192175560-71733975-7485-4e03-8367-201d745e399f.png)
 
 - SMOTE Oversampler Result
+
+![Screen Shot 2022-09-25 at 9 14 46 PM](https://user-images.githubusercontent.com/65901034/192175650-ba0d261a-019e-4084-886a-0c54177db159.png)
+
+## Undersample 
+- ClusterCentroids result
+
+![Screen Shot 2022-09-25 at 9 16 18 PM](https://user-images.githubusercontent.com/65901034/192175740-652e6456-5d95-4024-9616-35a27a4522bd.png)
 
 
 # Summary 
