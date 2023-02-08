@@ -20,6 +20,8 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![Screen Shot 2022-09-25 at 9 16 18 PM](https://user-images.githubusercontent.com/65901034/192175740-652e6456-5d95-4024-9616-35a27a4522bd.png)
 
+**[`^        back to top        ^`](#Overview-of-the-analysis)**
+
 ## Combination (Over and Under) Sampling
 - SMOTEENN algorithm
 
@@ -34,7 +36,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ![Screen Shot 2022-09-25 at 9 34 07 PM](https://user-images.githubusercontent.com/65901034/192177074-9940d928-15ae-43e0-b581-135085b33bb5.png)
 
-**[`^        back to top        ^`](# Overview-of-the-analysis)**
+**[`^        back to top        ^`](#Overview-of-the-analysis)**
 
 # Summary 
 All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
