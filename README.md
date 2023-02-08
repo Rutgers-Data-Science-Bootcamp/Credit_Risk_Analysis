@@ -34,7 +34,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ![Screen Shot 2022-09-25 at 9 34 07 PM](https://user-images.githubusercontent.com/65901034/192177074-9940d928-15ae-43e0-b581-135085b33bb5.png)
 
 
-
+**[`^        back to top        ^`](#Overview of the analysis)**
 # Summary 
 All the models used to perform the credit risk analysis show weak precision in determining if a credit risk is high.
 The Ensemble models brought a lot more improvment specially on the sensitivity of the high risk credits. While Adaboost algorithm shows a recall(sensitivity) of 92% so it detects almost all high risk credit, and BalancedRandomForest algorithm did not show any significant improvement (with significance 70%) from linear regression with oversampliong or downsampler or both. On another hand, all models with a low precision to detetct high risk loan, therefore a lot of low risk credits will still be falsely detected as high risk which would penalize the bank's credit strategy. For those reasons, these models are not sufficient to predict credit risk for commericial application.
